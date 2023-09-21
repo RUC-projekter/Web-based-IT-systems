@@ -1,7 +1,7 @@
 # Web-Based Blog Server
 Welcome to the Web-Based Blog Server project! This project is a web application that allows users to sign up, log in, create blog posts, edit their own posts, attach images to posts, comment on posts, and manage comments on their posts. It's a versatile and user-friendly platform for bloggers and content creators.
 
-#Features
+# Features
 User Registration: New users can easily sign up for an account.
 User Authentication: Registered users can log in securely.
 Create Blog Posts: Users can create and publish their own blog posts.
