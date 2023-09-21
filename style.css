@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Mono', monospace;
+}
+.body{
+  background: #99CCCC;
+
+}
+.beholder{
+  max-width: 444px;
+  padding: 10 15px;
+  margin: 270px auto;
+}
+.beholder2{
+  max-width: 444px;
+  padding: 10 15px;
+  margin: 240px auto;
+}
+
+.indpakning{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.1);
+}
+.indpakning .title{
+  height: 90px;
+  background: #99CCCC;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indpakning .title2{
+  height: 90px;
+  background: #99CCCC;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indpakning form{
+  padding: 30px 25px 25px 25px;
+}
+.indpakning form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.indpakning form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 17px;
+  transition: all 0.2s;
+}
+form .row input:focus{ /* for at lave en focus pÃ¥ nÃ¥r man skal skrive pÃ¥ input*/
+  border-color: #99CCCC;
+  box-shadow: inset 0px 0px 2px 2px rgba(25,180,255,0.25);
+}
+.indpakning form .row i{
+  position: absolute;
+  width: 45px;
+  height: 100%;
+  color: #fff;
+  font-size: 17px;
+  background: #99CCCC;
+  border: 1px solid #99CCCC;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indpakning form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 0px;
+  background: #99CCCC;
+  border: 1px solid #99CCCC;
+  cursor: pointer;
+}
+form .button input:hover{/* nÃ¥r mussen er over knappen sÃ¥ lyser den pÃ¥ en anden farve  */
+  background: #99CCFF;
+}
+.indpakning form .signup-link{
+  text-align: center;  /* placering pÃ¥ signup knappen */
+  margin-top: 20px;
+  font-size: 17px;
+}
+.indpakning form .signup-link a{
+  color: #3333FF; /* frave pÃ¥ signup knappen  */
+  text-decoration: none;
+}
+form .signup-link a:hover{ /* nÃ¥r mussen er over knappen sÃ¥ lyser den pÃ¥ en anden farve  */
+  text-decoration: underline; /* viser en underline nÃ¥r mussen er over signup */
+}
+.indpakning form .login-link{
+  text-align: center;  /* placering pÃ¥ signup knappen */
+  margin-top: 20px;
+  font-size: 15px;
+}
+.indpakning form .login-link a{
+  color: #3333FF; /* frave pÃ¥ signup knappen  */
+  text-decoration: none;
+}
+form .login-link a:hover{ /* nÃ¥r mussen er over knappen sÃ¥ lyser den pÃ¥ en anden farve  */
+  text-decoration: underline; /* viser en underline nÃ¥r mussen er over signup */
+}
