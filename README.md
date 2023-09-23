@@ -12,6 +12,6 @@ Comment Management: Post authors can moderate and delete comments on their own p
 Responsive Design: The application is designed to work seamlessly on both desktop and mobile devices.
 
 # Technologies Used
-Frontend: [List the frontend technologies used, e.g., HTML, CSS]
-Backend: [List the backend technologies used, e.g., Php]
+Frontend: [List the frontend technologies used, HTML, CSS]
+Backend: [List the backend technologies used, Php]
 Database: we used a ready database provieded by the teacher.
